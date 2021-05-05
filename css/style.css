@@ -40,4 +40,60 @@ body{
     line-height: 25px;
     font-weight: 400;
 }
+.container{
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+
+.site-header{
+    padding-top: 22px;
+    padding-bottom: 21px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img{
+    display: block;
+    margin-right: 58px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+.nav-item{
+    margin-right: 32px;
+    white-space: nowrap;
+}
+.nav-link{
+    color: var(--text-color);
+}
+.link{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.btn{
+    padding: 14px 39px;
+    white-space: nowrap;
+}
+.header-btn{
+    background-color: var(--active-color);
+    color: var(--white-color);
+}
 
