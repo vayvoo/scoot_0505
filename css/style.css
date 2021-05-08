@@ -457,3 +457,35 @@ body{
     width: 995px;
     height: 445px;
 }
+
+/* CAREERS PAGE */
+
+/* VACANCY SECTION */
+
+.mission{
+    left: 510px;
+    background: url("../img/mission-img.png") no-repeat;
+    width: 1070px;
+    height: 445px;
+}
+.vacancy{
+    margin-bottom: 160px;
+}
+.vacancy-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding: 32px 64px 37px 40px;
+    background: #F2F5F9;
+}
+.vacancy-info{
+    margin-right: 20px;
+}
+.vacancy-info-title{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.vacancy-info-text{
+    margin: 0;
+}
