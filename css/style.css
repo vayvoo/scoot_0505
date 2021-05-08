@@ -489,3 +489,31 @@ body{
 .vacancy-info-text{
     margin: 0;
 }
+
+/* LOCATIONS PAGE */
+
+/* LOCATIONS SECTION */
+
+.locations{
+    margin-bottom: 120px;
+}
+.map-img{
+    display: block;
+    margin-bottom: 120px;
+}
+.locations-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.locations-title{
+    width: 351px;
+    margin: 0;
+    margin-right: 30px;
+}
+.locations-text{
+    width: 445px;
+    margin: 0;
+    margin-right: 20px;
+    text-align: left;
+}
